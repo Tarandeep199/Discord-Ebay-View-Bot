@@ -1,12 +1,13 @@
 # Discord-Ebay-View-Bot
 A simple discord integrated bot that increases the amount of views an eBay listing has.  
 
-![](Screenshot$20(2).png)
+![Screenshot (2)](https://user-images.githubusercontent.com/25716399/72314434-d277d980-3643-11ea-8a0e-fd195a6390f6.png)
+
 
 # HOW TO USE
 
 1. Create a bot from https://discordapp.com/developers and invite it to your server (Helpful video to help do so - https://www.youtube.com/watch?v=ELUxJsQK290)
-2. Take the token and post it in the final line of code from the ebayview.py file. (There is a comment indicating where it belongs)
+2. Take the token from your discord bot and post it in the final line of code from the ebayview.py file. (There is a comment indicating where it belongs)
 3. Open up your terminal and CD to where you have saved the file
 4. Run it using "python ebayview.py"
 	-Make sure you have python installed.
