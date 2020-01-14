@@ -16,7 +16,9 @@ A simple discord integrated bot that increases the amount of views an eBay listi
 
 # Contact
 If you have any questions, concerns or trouble setting up the bot do not hesistate to contact me down below
+
  -Twitter @UndefinedErrors
+ 
  -Discord @Tarantastic#7824
  
  
