@@ -8,7 +8,8 @@ client = discord.Client()
 
 
 @client.event
-async def on_ready():
+asxxxxx60-==
+nc def on_ready():
     print(f"Logged in {client.user}")
 
 
@@ -24,19 +25,19 @@ def viewer(url):
 @client.event 
 async def on_message(message):
     
-    if message.content.startswith('!view '):
+    if message.content.startswith('!eviews '):
 
         embed = discord.Embed(title="Increase Ebay Views!", description="Request recieved, sending views...", color=0xFF0000)
-        embed.set_footer(text="Ebay View Bot made by @UndefinedErrors")
-        embed.set_thumbnail(url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ4oZ9W_GeyDogIPC4EuS2eBs_VrAaRO8P8Yyesr97_JPIJiKjIw&s")
+        embed.set_footer(text="12N EBAY VIEWER")
+        embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/773434230167306251/823240693992128512/12nn.jpg")
         await message.channel.send(embed=embed)
 
         url = message.content.split('!view ')[1]
         viewer(url)
 
         embed = discord.Embed(title="Ebay Views Increased!", description="Views Successfully Sent!", color=0xFF0000)
-        embed.set_footer(text="Ebay View Bot made by @UndefinedErrors")
-        embed.set_thumbnail(url="https://cdn-b.william-reed.com/var/wrbm_gb_hospitality/storage/images/1/5/0/8/498051-3-eng-GB/Hotels-can-expect-increased-demand-in-2014-but-must-adapt-to-modern-travellers_wrbm_small.jpg")
+        embed.set_footer(text="12N EBAY VIEWER")
+        embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/773434230167306251/823240693992128512/12nn.jpg")
         await message.channel.send(embed=embed)
 
     if message.content == '!stop': await client.logout()
@@ -44,11 +45,10 @@ async def on_message(message):
 
 
 
-
       
 
 #### TOKEN GOES HERE FROM YOUR DISCORD DEVLOPER PORTAL###### 
-client.run('TOKEN')
+client.run('ODA2NjMyODQxMjU2NjMyMzMx.YBsRXw.pI9BNiF0NtM16iB7o4PpM71NfpM')
 
 
 
